@@ -142,7 +142,11 @@ main .widget:hover {
 }
 
 main .widget:hover h1 {
-  color: #696969;
+  color: #ff5e5e;
+}
+
+main .widget:hover h2 {
+  color: #787878;
 }
 
 main .widget:hover p {
