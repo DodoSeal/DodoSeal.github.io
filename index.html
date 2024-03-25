@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DodoSeal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js" type="module"></script>
+    <link rel="icon" href="/assets/favicon.png">
+    <style type="text/tailwindcss">
+        @layer utilities {
+              .glass {
+                /* From https://css.glass */
+                background: rgba(0, 0, 0, 0.35);
+                border-radius: 16px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(8.7px);
+                -webkit-backdrop-filter: blur(8.7px);
+                border: 0.5px solid rgba(255, 255, 255, 0.25);
+              }
+
+              .glow-sm {
+                text-shadow: 0 0 20px #fff;
+              }
+
+              .glow-md {
+                text-shadow: 0 0 20px #fff, 0 0 20px #fff;
+              }
+
+              .glow-lg {
+                text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff;
+              }
+            }
+          </style>
+</head>
+<body class="bg-slate-900 w-screen h-screen flex items-center place-content-center">
+    <div id="glass" class="md:w-[48rem] w-[24rem] md:h-[32rem] h-[46rem] glass flex flex-col items-center p-12 transition-transform duration-75">
+        <img class="rounded-full select-none" src="./assets/profile.png">
+        <h1 class="font-bold text-3xl text-white mt-5 select-none glow-md">DodoSeal</h1>
+        <h1 class="text-white text-lg text-center mt-10 select-none">Self-taught developer with 4 years of experience in web design and Node. I enjoy playing music, playing video games, and working with ETC technology.</h1>
+        <div class="md:mt-7 mt-14 w-full h-[10rem] flex flex-wrap place-content-center items-center hover:[&_div]:hover:bg-opacity-55 [&_div]:cursor-pointer [&_img]:select-none">
+            <div id="discord" class="group/discord transition-all rounded-3xl hover:rounded-[1.75rem] w-[5rem] h-[5rem] bg-black bg-opacity-65 m-5 flex items-center place-content-center">
+              <div class="group-hover/discord:block hidden absolute bg-black bg-opacity-65 px-2 rounded-xl mb-32">
+                <h1 class="text-lg text-white font-semibold">@dodoseal</h1>
+              </div>
+              <img class="w-10" src="./assets/socials/discord.png">
+            </div>
+            <div id="twitter" class="group/twitter transition-all rounded-3xl hover:rounded-[1.75rem] w-[5rem] h-[5rem] bg-black bg-opacity-65 m-5 flex items-center place-content-center">
+              <div class="group-hover/twitter:block hidden absolute bg-black bg-opacity-65 px-2 rounded-xl mb-32">
+                <h1 class="text-lg text-white font-semibold">Twitter</h1>
+              </div>
+              <img class="w-8" src="./assets/socials/twitter.png">
+            </div>
+            <div id="github" class="group/github transition-all rounded-3xl hover:rounded-[1.75rem] w-[5rem] h-[5rem] bg-black bg-opacity-65 m-5 flex items-center place-content-center">
+              <div class="group-hover/github:block hidden absolute bg-black bg-opacity-65 px-2 rounded-xl mb-32">
+                <h1 class="text-lg text-white font-semibold">GitHub</h1>
+              </div>
+              <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" class="w-14">
+                <path
+                  d="M36,12c13.255,0,24,10.745,24,24c0,10.656-6.948,19.685-16.559,22.818c0.003-0.009,0.007-0.022,0.007-0.022	s-1.62-0.759-1.586-2.114c0.038-1.491,0-4.971,0-6.248c0-2.193-1.388-3.747-1.388-3.747s10.884,0.122,10.884-11.491	c0-4.481-2.342-6.812-2.342-6.812s1.23-4.784-0.426-6.812c-1.856-0.2-5.18,1.774-6.6,2.697c0,0-2.25-0.922-5.991-0.922	c-3.742,0-5.991,0.922-5.991,0.922c-1.419-0.922-4.744-2.897-6.6-2.697c-1.656,2.029-0.426,6.812-0.426,6.812	s-2.342,2.332-2.342,6.812c0,11.613,10.884,11.491,10.884,11.491s-1.097,1.239-1.336,3.061c-0.76,0.258-1.877,0.576-2.78,0.576	c-2.362,0-4.159-2.296-4.817-3.358c-0.649-1.048-1.98-1.927-3.221-1.927c-0.817,0-1.216,0.409-1.216,0.876s1.146,0.793,1.902,1.659	c1.594,1.826,1.565,5.933,7.245,5.933c0.617,0,1.876-0.152,2.823-0.279c-0.006,1.293-0.007,2.657,0.013,3.454	c0.034,1.355-1.586,2.114-1.586,2.114s0.004,0.013,0.007,0.022C18.948,55.685,12,46.656,12,36C12,22.745,22.745,12,36,12z">
+                </path>
+              </svg>
+            </div>
+            <div id="email" class="group/email transition-all rounded-3xl hover:rounded-[1.75rem] w-[5rem] h-[5rem] bg-black bg-opacity-65 m-5 flex items-center place-content-center">
+              <div class="group-hover/email:block hidden absolute bg-black bg-opacity-65 px-2 rounded-xl mb-32">
+                <h1 class="text-lg text-white font-semibold">admin@dodoseal.com</h1>
+              </div>
+              <img class="w-10" src="./assets/socials/email.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
