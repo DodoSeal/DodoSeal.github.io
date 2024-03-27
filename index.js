@@ -26,6 +26,7 @@ glass.addEventListener('click', (e) => rotateGlass(45));
 function rotateGlass(degrees) {
     rotationDeg += degrees;
     glass.style.transform = `rotate(${rotationDeg}deg)`;
+    glass.style.webkitTransform = `rotate(${rotationDeg}deg)`;
 };
 
 // Socials
