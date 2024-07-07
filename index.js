@@ -12,7 +12,7 @@ let bgList = [
 
 let randomBgName = bgList[Math.floor(Math.random() * bgList.length)];
 
-document.body.style.backgroundImage = `url("./assets/background/${randomBgName}")`;
+document.body.style.backgroundImage = `url("/assets/background/${randomBgName}")`;
 /* document.body.style.backgroundImage = 'url("./assets/background/RainyRoad.jpeg")'; */
 document.body.style.backgroundRepeat = `no-repeat`;
 document.body.style.backgroundSize = `cover`;
@@ -32,11 +32,13 @@ function rotateGlass(degrees) {
 // Socials
 let discord = document.getElementById('discord');
 let twitter = document.getElementById('twitter');
+let projects = document.getElementById('projects');
 let github = document.getElementById('github');
 let email = document.getElementById('email');
 
 discord.addEventListener('click', () => socialsRedirect("https://discordapp.com/users/777043422031773698"));
 twitter.addEventListener('click', () => socialsRedirect("https://x.com/@WestJordan08"));
+projects.addEventListener('click', () => socialsRedirect("/projects"))
 github.addEventListener('click', () => socialsRedirect("https://github.com/DodoSeal"));
 email.addEventListener('click', () => socialsRedirect("mailto:admin@dodoseal.com"));
 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | DodoSeal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js" type="module"></script>
+    <link rel="icon" href="/assets/favicon.png">
+    <style type="text/tailwindcss">
+        @layer utilities {
+              .glass {
+                /* From https://css.glass */
+                background: rgba(0, 0, 0, 0.35);
+                border-radius: 16px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(8.7px);
+                -webkit-backdrop-filter: blur(8.7px);
+                border: 0.5px solid rgba(255, 255, 255, 0.25);
+              }
+
+              .glow-sm {
+                text-shadow: 0 0 20px #fff;
+              }
+
+              .glow-md {
+                text-shadow: 0 0 20px #fff, 0 0 20px #fff;
+              }
+
+              .glow-lg {
+                text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff;
+              }
+            }
+          </style>
+</head>
+<body class="bg-slate-900 w-screen h-screen flex">
+    <!-- Mobile Only Message -->
+    <div class="md:hidden flex w-screen h-screen items-center place-content-center bg-slate-900">
+        <p class="font-semibold text-center text-[2.25rem] text-white w-1/2">This page is currently unavailable on mobile devices.</p>
+    </div>
+
+    <div class="hidden md:flex w-screen h-screen place-content-center">
+        <input class="glass w-[18rem] h-[2.75rem] mt-[3rem] p-6 placeholder:text-slate-800" id="search-bar" type="text" placeholder="Search">
+    </div>
+</body>
+</html>
