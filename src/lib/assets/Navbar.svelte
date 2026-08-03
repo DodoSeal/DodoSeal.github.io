@@ -10,7 +10,7 @@
 <div class="bg-backdrop w-full flex-col md:flex-row center-content md:justify-between">
     <!-- Title and Email -->
     <div class="h-full center-content">
-        <p class="text-text-light font-xl font-bold m-1 whitespace-nowrap">Max McDaniel</p>
+        <a href="/" class="text-text-light hover:text-sky-400 transition-colors duration-200 font-xl font-bold m-1 whitespace-nowrap">Max McDaniel</a>
         
         <div class="w-0.5 h-4 opacity-20 shrink-0 bg-gray-300 m-1"></div>
 
