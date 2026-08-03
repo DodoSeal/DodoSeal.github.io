@@ -1,1 +1,1 @@
-I am a 17 year-old, self-taught programmer and lighting designer. I mainly use Node.js with TypeScript for app development, and TailwindCSS with Svelte for frontend design. I love play with light and design beautiful shows. In my free time, I'm a photographer and love to capture nature.
+I am a 17 year-old self-taught programmer and lighting designer. I mainly use Node.js with TypeScript for app development, and TailwindCSS with Svelte for frontend design. I love play with light and design beautiful shows. In my free time, I'm a photographer and love to capture nature.
