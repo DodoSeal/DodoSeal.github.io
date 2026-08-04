@@ -6,7 +6,7 @@
 
 <div class="main-wrapper">
     <Navbar />
-    <PageTitle title="Contact Me" description="Description here haha lol idk what to write, just make something up for now yeah... :D"/>
+    <PageTitle title="Contact Me" description="Have a project idea, a question, or just want to talk? Let me know! :D"/>
     <div class="main-content center-content">
         <!-- Stuff goes here btw -->
     </div>
