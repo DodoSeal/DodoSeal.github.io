@@ -44,7 +44,7 @@
     </CardSection>
 
     <CardSection sectionTitle="Theatrical Tech">
-        <LightingCard title="High School Musical" date="Nov. 2025" imageSrc="" tags={[ "Video Design", "QLab 5", "Adobe After Effects" ]} />
+        <LightingCard title="High School Musical" date="Nov. 2025" imageSrc="" tags={[ "Video Design", "WLED", "QLab 5", "Adobe After Effects" ]} />
         <LightingCard title="MDT Revue" date="Jan. 2026" imageSrc="" tags={[ "Lighting Design", "ETC Eos" ]} />
         <LightingCard title="Murder on The Orient Express" date="Feb. 2026" imageSrc="" tags={[ "Lighting Design", "ETC Eos" ]} />
         <LightingCard title="The Clockmaker's Daughter" date="Apr. 2026" imageSrc="" tags={[ "WLED", "ETC Eos", "Video Design", "Adobe After Effects", "QLab 5" ]} />

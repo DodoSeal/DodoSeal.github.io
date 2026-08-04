@@ -2,5 +2,9 @@
     <p>© 2026 Max McDaniel</p>
 
     <!-- Socials -->
-    <div></div>
+    <div class="flex items-center">
+        <!-- <a href="https://google.com" target="_blank">
+            <img src="/" class="w-10 aspect-square" alt="" loading="lazy">
+        </a> -->
+    </div>
 </footer>
